@@ -1,0 +1,5 @@
+services:
+  retailpulse-etl:
+    build: .
+    volumes:
+      - ./data:/app/data
